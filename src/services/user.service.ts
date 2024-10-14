@@ -1,5 +1,3 @@
-import { Request, Response } from "express";
-
-export function getAllUser(req: Request, res: Response) {
+export function getAllUser() {
   return "ok";
 }
